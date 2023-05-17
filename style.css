@@ -122,3 +122,29 @@ ul{
     color: var(--accent-color);
     transition: 0.2s ease-out;
 }
+
+.header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.header-left{
+    max-width: 40vw;
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-right img{
+    width: 500px;
+    margin-top: 20px;
+}
+
+.header-left{
+    margin-top: 20px;
+}
+
+.get-started{
+    margin:20px;
+}

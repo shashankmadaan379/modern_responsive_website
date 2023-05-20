@@ -194,3 +194,22 @@ ul{
     max-width: 30%;
     text-align: center;
 }
+
+
+
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-feature-container{
+    gap: 30px;
+}
+
+.feature-image img{
+    width: 100%;
+}
+
+.feature-desc {
+    align-items: flex-start;
+    flex-direction: column;
+}

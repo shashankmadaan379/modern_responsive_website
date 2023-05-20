@@ -213,3 +213,50 @@ ul{
     align-items: flex-start;
     flex-direction: column;
 }
+
+
+.examples-header {
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.examples-area{
+    justify-content: space-between;margin-block: 30px;
+}
+.examples-card-1{
+    width: 23%;
+    min-height: 300px;
+    position: relative;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) ,url("images/asset\ 35.jpeg");
+}
+.examples-card-2 {
+    width: 23%;
+    min-height: 300px;
+    position: relative;
+    background: black;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("images/asset\ 36.jpeg");
+}
+.examples-card-3 {
+    width: 23%;
+    min-height: 300px;
+    position: relative;
+    background: black;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("images/asset\ 37.jpeg");
+}
+.examples-card-4 {
+    width: 23%;
+    min-height: 300px;
+    position: relative;
+    background: black;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("images/asset\ 38.jpeg");
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}

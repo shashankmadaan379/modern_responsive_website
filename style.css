@@ -157,10 +157,12 @@ ul{
     color: var(--primary-text-color);
 }
 
-.logos {
+.logos{
     justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 .logo{
     height: 46px;
-
+    /* padding-right: 20px; */
 }

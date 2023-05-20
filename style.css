@@ -230,6 +230,7 @@ ul{
     position: relative;
     background: black;
     background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) ,url("images/asset\ 35.jpeg");
+    transition: 0.2s ease-out;
 }
 .examples-card-2 {
     width: 23%;
@@ -237,6 +238,7 @@ ul{
     position: relative;
     background: black;
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("images/asset\ 36.jpeg");
+    transition: 0.2s ease-out;
 }
 .examples-card-3 {
     width: 23%;
@@ -244,6 +246,7 @@ ul{
     position: relative;
     background: black;
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("images/asset\ 37.jpeg");
+    transition: 0.2s ease-out;
 }
 .examples-card-4 {
     width: 23%;
@@ -251,6 +254,7 @@ ul{
     position: relative;
     background: black;
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("images/asset\ 38.jpeg");
+    transition: 0.2s ease-out;
 }
 
 .card-text{
@@ -259,4 +263,8 @@ ul{
     left: 20px;
     right: 20px;
     color: white;
+}
+
+.examples-card-1:hover,.examples-card-2:hover,.examples-card-3:hover,.examples-card-4:hover{
+    box-shadow: 0 0 10px #888;
 }

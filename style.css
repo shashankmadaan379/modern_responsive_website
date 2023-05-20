@@ -268,3 +268,17 @@ ul{
 .examples-card-1:hover,.examples-card-2:hover,.examples-card-3:hover,.examples-card-4:hover{
     box-shadow: 0 0 10px #888;
 }
+
+.cta-section-container{
+    flex-direction: column;
+    height: 300px;
+    background-color: var(--primary-text-color);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 30px;
+}
+.cta-section-container p{
+    color: white;
+    margin-top: 20px;
+}

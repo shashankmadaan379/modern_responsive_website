@@ -52,6 +52,7 @@ a{
     max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
+    overflow: hidden !important;
 }
 
 .flex{
@@ -106,15 +107,19 @@ ul{
 .main-nav{
     justify-content: space-between;
     margin-top: 20px;
+    
 }
 .nav-links{
-    flex-basis: 730px;
+    flex-basis: 723px;
 }
 .nav-links ul{
     justify-content: end;
     gap: 40px;
 }
 
+.nav-toggle{
+    display: none;
+}
 .hover-link{
     color: var(--primary-text-color);
 }
@@ -129,6 +134,7 @@ ul{
 
 .header-left{
     max-width: 40vw;
+    margin-top: 20px;
 }
 
 .header-section{
@@ -137,13 +143,11 @@ ul{
 }
 
 .header-right img{
-    width: 500px;
+    width: 100%;
     margin-top: 20px;
 }
 
-.header-left{
-    margin-top: 20px;
-}
+
 
 .get-started{
     margin:20px;
@@ -158,8 +162,9 @@ ul{
 }
 
 .logos{
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
     
 }
 .logo{
@@ -226,10 +231,11 @@ ul{
 
 .examples-area{
     justify-content: space-between;margin-block: 30px;
+    flex-wrap: wrap;
 }
 .examples-card-1{
     width: 23%;
-    min-height: 300px;
+    height: 300px;
     position: relative;
     background: black;
     background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) ,url("images/asset\ 35.jpeg");
@@ -237,7 +243,7 @@ ul{
 }
 .examples-card-2 {
     width: 23%;
-    min-height: 300px;
+    height: 300px;
     position: relative;
     background: black;
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("images/asset\ 36.jpeg");
@@ -245,7 +251,7 @@ ul{
 }
 .examples-card-3 {
     width: 23%;
-    min-height: 300px;
+    height: 300px;
     position: relative;
     background: black;
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("images/asset\ 37.jpeg");
@@ -253,7 +259,7 @@ ul{
 }
 .examples-card-4 {
     width: 23%;
-    min-height: 300px;
+    height: 300px;
     position: relative;
     background: black;
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url("images/asset\ 38.jpeg");

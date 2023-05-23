@@ -1,10 +1,22 @@
 @media screen  and (max-width:991px){
+    .main-nav{
+        overflow: initial;
+    }
     .nav-toggle{
         display: block;
         margin-right: 20px;
     }
     .nav-links{
-        display:none;
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+    .nav-links.active{
+        left: 0;
     }
     .nav-links ul{
         flex-direction: column;
@@ -33,7 +45,7 @@
         text-align: center;
     }
     .primary-button{
-        width: 80%;
+        width: 100%;
         text-align: center;
     }
 
